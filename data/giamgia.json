@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Adidas B52",
+    "brand": "Adidas",
+    "image": "./Img/Assets/biti1.1.jpg",
+    "imageHover": "./Img/Assets/biti1.2.jpg",
+    "link": "Adidas.html",
+    "rating": 3,
+    "oldPrice": "500.000đ",
+    "newPrice": "500.000đ",
+    "discount": "0%"
+  },
+  {
+    "name": "Nike A124",
+    "brand": "Nike",
+    "image": "./Img/Assets/Product1.1.jpg",
+    "imageHover": "./Img/Assets/Product1.2.jpg",
+    "link": "nike.html",
+    "rating": 3,
+    "oldPrice": "770.000đ",
+    "newPrice": "700.000đ",
+    "discount": "10%"
+  },
+  {
+    "name": "Converse 17TH",
+    "brand": "Converse",
+    "image": "./Img/Assets/biti7.3.jpg",
+    "imageHover": "./Img/Assets/biti7.2.jpg",
+    "link": "Converse.html",
+    "rating": 3,
+    "oldPrice": "250.000đ",
+    "newPrice": "500.000đ",
+    "discount": "50%"
+  },
+  {
+    "name": "Fila NCV17",
+    "brand": "Fila",
+    "image": "./Img/Assets/Product2.2.jpg",
+    "imageHover": "./Img/Assets/Product2.5.jpg",
+    "link": "Fila.html",
+    "rating": 3,
+    "oldPrice": "630.000đ",
+    "newPrice": "900.000đ",
+    "discount": "30%"
+  },
+  {
+    "name": "Air A47",
+    "brand": "Air",
+    "image": "./Img/Assets/Product3.4.jpg",
+    "imageHover": "./Img/Assets/Product3.3.jpg",
+    "link": "Air.html",
+    "rating": 3,
+    "oldPrice": "150.000đ",
+    "newPrice": "500.000đ",
+    "discount": "70%"
+  },
+  {
+    "name": "Hunter X",
+    "brand": "Bitis",
+    "image": "./Img/Giay/Hunterx4.jpg",
+    "imageHover": "./Img/Giay/Huntex2.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3,
+    "oldPrice": "640.000đ",
+    "newPrice": "800.000đ",
+    "discount": "20%"
+  }
+]

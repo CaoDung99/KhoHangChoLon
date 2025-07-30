@@ -1,0 +1,52 @@
+
+
+<!-- Sản phẩm nổi bật -->
+<div class="container-fluid">
+    <div class="row text-center" id="product-highlight">
+        <div class="col-12 spnoibat mt-2">
+            <h1>Gương</h1>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<script>
+    fetch("https://sheetdb.io/api/v1/ss5t7g1ttvpwy") // <--- Thay bằng SheetDB URL thật của bạn
+      .then(response => response.json())
+      .then(products => {
+        const container = document.getElementById("product-highlight");
+
+        products.forEach(p => {
+          let stars = "";
+          for (let i = 1; i <= 5; i++) {
+            if (p.rating >= i) {
+              stars += "<i class='fas fa-star'></i>";
+            } else if (p.rating >= i - 0.5) {
+              stars += "<i class='fas fa-star-half-alt'></i>";
+            } else {
+              stars += "<i class='far fa-star'></i>";
+            }
+          }
+
+          container.innerHTML += `
+            <div class="col-md-4 col-lg-2 col-sm-6 col-6">
+              <a href="${p.link}" style="color: black;">
+                <div class="product-top">
+                  <img src="${p.image}" alt="${p.name}" class="img-fluid w-100" style="max-height:250px; object-fit:cover;">
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" onclick="window.location.href='${p.link}'"><i class="far fa-eye"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="far fa-heart"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  ${stars}
+                  <h3>${p.name}</h3>
+                  <h5>${p.discount ? `<del>${p.discount}</del> Chỉ còn ${p.price}` : p.price}</h5>
+                </div>
+              </a>
+            </div>
+          `;
+        });
+      });
+</script>

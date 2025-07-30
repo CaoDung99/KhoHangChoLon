@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kho Chợ Lớn</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Logo trang trên tiêu đề -->
+    <link rel="shortcut icon" href="./Img/Assets/LogoShop1.png">
+    <meta name="description" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="H">
+    <meta name="author" content="">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Thêm link FontAwesome nếu chưa có -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Font Awesome  CDN-->
+    <script src="https://kit.fontawesome.com/1b32f59f62.js" crossorigin="anonymous"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/Product-Common.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158246306-1"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-158246306-1');
+    </script>
+    <!-- <script async src="https://cse.google.com/cse.js?cx=001159946809632492442:1ktplpnsqyw"></script>
+    <div class="gcse-search"></div> -->
+</head>
+<body >
+  <script>
+    var div = document.createElement('div');
+    div.className = 'fb-customerchat';
+    div.setAttribute('page_id', '105491614515397');
+    div.setAttribute('ref', '');
+    document.body.appendChild(div);
+    window.fbMessengerPlugins = window.fbMessengerPlugins || {
+      init: function () {
+        FB.init({
+          appId            : '1678638095724206',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v3.3'
+        });
+      }, callable: []
+    };
+    window.fbAsyncInit = window.fbAsyncInit || function () {
+      window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+      window.fbMessengerPlugins.init();
+    };
+    setTimeout(function () {
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    }, 0);
+  </script>
+  <!-- Thanh Kết nối -->
+  <header class="container-fluid">
+    <div class="row bg-hd">
+      <div class="col-lg-9 col-md-7 col-sm-4 col-5">
+        <a style="color: #fff;" data-toggle="tooltip" data-placement="top" title="Kết nối tài khoản mạng xã hội của bạn để theo dõi những bài viết mới nhất của tôi">Kết Nối</a>&ensp;
+        <a href="https://www.facebook.com/vanmaihon/" data-toggle="tooltip" data-placement="top" title="FaceBook" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="" data-toggle="tooltip" data-placement="top" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="" data-toggle="tooltip" data-placement="top" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="col-lg-3 col-md-5 col-sm-8 col">
+        <a href="registration.html" data-toggle="tooltip" data-placement="top" title="Trở thành thành viên để nhận được nhiều ưu đãi giảm giá!"><i class="fas fa-key"></i> Đăng Ký </a>|
+        <a href="login.html" data-toggle="tooltip" data-placement="top" title="Đăng nhập để sử dụng nhiều tính năng hơn!"><i class="fas fa-user-tie"></i> Đăng Nhập</a>
+      </div>
+    </div>
+  </header> 
+  <!-- Phần này là thanh điều hướng đáp ứng bắt trước apple -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <button class="navbar-toggler m-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand mx-auto " href="index.html"><img src="./Img/Assets/LogoShop1.png" alt="Logo" width="70px" height="70px"></a>
+    <div class="pl-3 d-inline show-cart" data-toggle="tooltip" data-placement="top" title="Giỏ hàng hiện tại của bạn"><i class="fas fa-cart-plus"></i></div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item navshover active mx-auto">
+            <a class="nav-link" href="index.html">Trang Chủ</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductSonThom.html">Sơn Thơm</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductSonAcrylic.html">Sơn Acrylic</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductKeo.html">Keo</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductKimTuyen.html">Kim Tuyến</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductDecal.html">Decal</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="ProductGương.html">Gương</a>
+        </li>
+        <li class="nav-item navshover mx-auto">
+            <a class="nav-link" href="Dieu-khoan.html">Liên Hệ</a>
+        </li>
+    </ul>
+
+    <form class="form-inline search-box">
+      <input class="search-txt" type="search" placeholder=" Tìm Kiếm Sản Phẩm">
+      <a class="search-btn btn mx-auto" type="submit" data-toggle="tooltip" data-placement="top" title="Tìm kiếm sản phẩm"><i class="fas fa-search"></i></a>
+    </form>
+
+
+    </div>
+  </nav>
+  <!-- Giõ hàng cơ bản -->
+
+  <!-- Banner Hunter
+  <a href="ProductSonThom.html"><img src="./Img/Assets/banner.png" alt="" width="100%" height="700px"></a>
+  -->
+  <!-- Banner Hunter -->
+  <a href="ProductSonThom.html">
+
+    <video width="100%" height="500px" autoplay muted loop>
+
+
+      <source src="https://bizcommon.alicdn.com/5hCyOr1jIEouPTsN4DA/lSbVfOt65ga8EcRq0ez__hd.mp4?biz=video-aa9c5799b9a56760&t=21088ae017522030170216812e1612&t=21088ae017522030170216812e1612&b=video&p=cloudvideo_http_58204652" type="video/mp4">
+      Trình duyệt của bạn không hỗ trợ video.
+    </video>
+  </a>
+
+
+  <!-- Free Giao Hàng -->
+  <div class="container-fluid">
+    <div class="row justify-content-center text-center mt-4 ">
+      <div class="col-4 special">
+        <p><i class="fas fa-history"></i> ĐỔI HÀNG TRONG 24H</p>
+      </div>
+      <div class="col-4 special">
+        <p><i class="fas fa-car"></i> GIAO HỎA TỐC 1-2H</p>
+      </div>
+      <div class="col-4 special">
+        <p><i class="fas fa-money-check-alt"></i> THANH TOÁN KHI NHẬN HÀNG</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Danh mục sản phẩm -->
+  <div class="container-fluid">
+      <div class="row text-center" id="product-categories">
+          <div class="col-12 spnoibat mt-2">
+              <h1>Danh Mục Sản Phẩm</h1>
+              <hr>
+          </div>
+      </div>
+      <div class="row text-center justify-content-center">
+          <!-- Danh mục sẽ được gán ở đây -->
+      </div>
+  </div>
+
+  <script>
+      const categories = [
+        { name: "Sơn", image: "https://cf.shopee.vn/file/sg-11134201-7rd4t-m7iuqi2qyrvt28_tn", link: "ProductSonThom.html" },
+        { name: "Màu Vẽ Áo", image: "https://cf.shopee.vn/file/sg-11134201-7ra0n-m59vnhjt6r8828_tn", link: "ProductSonAcrylic.html" },
+        { name: "Keo / Nail", image: "https://cf.shopee.vn/file/sg-11134201-7ra2i-m4yh78kk7kri95_tn", link: "ProductKeo.html" },
+        { name: "Kim Tuyến", image: "https://cf.shopee.vn/file/vn-11134207-7ras8-m4zjgn6i7lfa29_tn", link: "ProductKimTuyen.html" },
+        { name: "Decal", image: "https://cf.shopee.vn/file/sg-11134201-7rccj-m6f4oqhyv3le44_tn", link: "ProductDecal.html" },
+        { name: "Gương", image: "https://cf.shopee.vn/file/sg-11134201-7ra3o-m5b4w6cb5nk089_tn", link: "ProductGương.html" }
+      ];
+
+      const container = document.querySelector("#product-categories + .row");
+      categories.forEach(c => {
+        container.innerHTML += `
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <a href="${c.link}" style="text-decoration: none; color: black;">
+              <div class="border rounded p-3 h-100 d-flex flex-column align-items-center justify-content-center shadow-sm hover-effect">
+                <img src="${c.image}" alt="${c.name}" style="width: 100%; height: 100%; object-fit: contain;">
+                <div style="margin-top: 8px;">${c.name}</div>
+              </div>
+            </a>
+          </div>
+        `;
+      });
+  </script>
+
+  <!-- Sản phẩm bán chạy -->
+  <div class="container-fluid">
+      <div class="row text-center">
+          <div class="col-12 spnoibat my-2">
+              <h1>Sản Phẩm Bán Chạy</h1>
+              <hr>
+              <a href="ProductSonThom.html" style="color: gray;">Xem thêm</a>
+          </div>
+      </div>
+
+      <!-- Swiper slider -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="best-sellers"></div>
+      </div>
+  </div>
+
+  <script>
+      fetch("https://sheetdb.io/api/v1/pyapzujt3cqfs")
+        .then(res => res.json())
+        .then(data => {
+          const container = document.getElementById("best-sellers");
+
+          data.forEach(p => {
+            let stars = "";
+            for (let i = 1; i <= 5; i++) {
+              if (p.rating >= i) {
+                stars += "<i class='fas fa-star'></i>";
+              } else if (p.rating >= i - 0.5) {
+                stars += "<i class='fas fa-star-half-alt'></i>";
+              } else {
+                stars += "<i class='far fa-star'></i>";
+              }
+            }
+
+            container.innerHTML += `
+              <div class="swiper-slide">
+                <a href="${p.link}" style="color: black;">
+                  <div class="product-top" style="height: 250px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                    <img src="${p.image}" alt="${p.name}" style="height: 100%; width: auto;">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" onclick="window.location.href='${p.link}'"><i class="far fa-eye"></i></button>
+                      <button type="button" class="btn btn-secondary"><i class="far fa-heart"></i></button>
+                      <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                    ${stars}
+                    <h3>${p.name}</h3>
+                    <h5>${
+                      p.discount
+                        ? `<del>${p.discount}</del> Chỉ còn ${p.price}`
+                        : `<span style="color: ${p.price === "Free" ? "red" : "black"}">${p.price}</span>`
+                    }</h5>
+                  </div>
+                </a>
+              </div>
+            `;
+          });
+
+          new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false
+            },
+            breakpoints: {
+              1200: { slidesPerView: 6 },
+              992: { slidesPerView: 4 },
+              768: { slidesPerView: 3 },
+              576: { slidesPerView: 2 },
+              0:   { slidesPerView: 1 }
+            }
+          });
+        });
+  </script>
+
+
+
+
+
+
+
+  <!-- Nhận xét của khách hàng -->
+  <div class="container-fluid bg-secondary">
+    <div class="row text-center spnoibat">
+      <div class="col-12 mt-3">
+        <h1>Nhận Xét Của Khách Hàng</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <div id="Comment" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#Comment" data-slide-to="0" class="active"></li>
+      <li data-target="#Comment" data-slide-to="1"></li>
+      <li data-target="#Comment" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner bg-secondary">
+      <div class="carousel-item active Cmt">
+        <img src="./Img/Assets/user.png" class="d-block" alt="Nhận xét của Khách Hàng">
+        <div class="carousel-caption d-md-block">
+          <h5>Hoàng Long</h5>
+          <p>Màu lên cực chuẩn, không bị bợt hay loang lổ. Sơn khô nhanh, mùi dễ chịu, đúng là sản phẩm đáng tiền!</p>
+        </div>
+      </div>
+      <div class="carousel-item Cmt">
+        <img src="./Img/Assets/user.png" class="d-block" alt="Nhận xét của Khách Hàng">
+        <div class="carousel-caption d-md-block">
+          <h5>Vũ Hồng Loan</h5>
+          <p>Sơn có độ phủ rất tốt, chỉ cần một lớp là đã thấy rõ màu rồi. Mình dùng để làm DIY, ai nhìn cũng khen.</p>
+        </div>
+      </div>
+      <div class="carousel-item Cmt">
+        <img src="./Img/Assets/user.png" class="d-block" alt="Nhận xét của Khách Hàng">
+        <div class="carousel-caption d-md-block">
+          <h5>Thụy Hân</h5>
+          <p>Mình chọn màu ánh kim, ra ánh sáng đổi màu nhìn mê luôn. Shop còn tư vấn rất nhiệt tình nữa chứ!</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#Comment" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#Comment" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- HashTag -->
+  <div class="container-fluid hashtag bg-dark text-light">
+    <div class="row">
+      <div class="col-12 text-center mt-3 mb-2">
+          <h4>
+              HASHTAG
+              <a href="https://shopee.vn/khohangcholon?entryPoint=ShopByPDP" target="_blank" style="color: #ee4d2d; font-weight: bold;">#KhoHàngChợLớn</a>
+              ĐỂ CÓ CƠ HỘI NHẬN MÃ GIẢM GIÁ TRÊN SHOPPE
+          </h4>
+      </div>
+    </div>
+  </div>
+  <!-- Chân trang -->
+  <footer class="container-fluid" id="footer">
+    <div class="row pt-3 pb-3 bg-light dk pt-5">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h4>Đăng kí nhận bản tin</h4>
+            <p>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</p>
+        </div>
+        <div class="col-lg-4 col-md-10 col-sm-9">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Địa chỉ email của bạn">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3">
+            <button class="btn btn-primary">Đăng Ký</button>
+        </div>
+    </div>
+    <div class="row mt-3 m2">
+        <div class=" ft col-lg-3 col-md-6 col-sm-6 col-12">
+            <p>DANH MỤC SẢN PHẨM</p>
+            <p><a href="">Nguyên Liệu Ngành Sơn</a></p>
+            <p><a href="">Nguyên Liệu Ngành Nail</a></p>
+            <p><a href="">Các Loại Bột Phát Sáng</a></p>
+            <p><a href="">Các Loại Kim Tuyến</a></p>
+            <p><a href="">Các Dòng Sơn Xăng</a></p>
+            <p><a href="">Các Dòng Sơn Acrylic </a></p>
+        </div>
+        <div class="ft col-lg-3 col-md-6 col-sm-6 col-12">
+            <p>HỖ TRỢ KHÁCH HÀNG</p>
+            <p><a href="Chinh-sach-doi-tra.html">Chính sách đổi trả</a></p>
+            <p><a href="Chinh-sach-van-chuyen.html">Chính sách vận chuyển</a></p>
+            <p><a href="Chinh-sach-thanh-toan.html">Chính sách mua hàng và thanh toán</a></p>
+            <p><a href="">Chính sách bảo mật thông tin</a></p>
+
+        </div>
+        <div class="ft col-lg-3 col-md-6 col-sm-12 col-12">
+            <p>NEW</p>
+            <p><a href="Store-Locate.html">Cửa Hàng</a></p>
+            <p><a href="Ve-chung-toi.html">Về Chúng Tôi</a></p>
+        </div>
+        <div class="ft col-lg-3 col-md-6 col-sm-12 pttt col-12">
+            <p>PHƯƠNG THỨC THANH TOÁN</p>
+            <img src="./Img/Assets/visa.svg" alt="">
+            <img src="./Img/Assets/mastercard.svg" alt="">
+            <img src="./Img/Assets/jcb.svg" alt="">
+
+            <img src="./Img/Assets/cash.svg" alt="">
+            <img src="./Img/Assets/internet-banking.svg" alt="">
+            <img src="./Img/Assets/installment.svg" alt="">
+        </div>
+    </div>
+    <div class="row bg-light">
+        <div class="col bq">© 2025 - Bản quyền của Kho Hàng Chợ Lớn</div>
+    </div>
+    <div class="row bg-light">
+        <div class="col bq">
+            <small></small>
+        </div>
+    </div>
+</footer>
+<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button> 
+    <!-- Start JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      $('.slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 3000,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+      
+    </script>
+    <!-- <script>
+      $(".show-cart").click(function(){
+        $(".sm-menu").fadeToggle("fast");
+      });
+    </script> -->
+
+
+  <!-- zalo.html -->
+  <div id="zalo-container"></div>
+
+  <script>
+      fetch("zalo.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("zalo-container").innerHTML = html;
+        });
+  </script>
+
+</body>
+</html>

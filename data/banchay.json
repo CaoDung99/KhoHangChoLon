@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Bitis Hunter X 2020",
+    "price": "500.000đ",
+    "image": "./Img/Assets/biti1.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2021",
+    "price": "999.000đ",
+    "image": "./Img/Assets/biti2.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2022",
+    "price": "1.000.000đ",
+    "image": "./Img/Assets/biti3.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2023",
+    "price": "491.000đ",
+    "image": "./Img/Assets/biti4.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2024",
+    "price": "Free",
+    "image": "./Img/Assets/biti5.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2025",
+    "price": "$100",
+    "image": "./Img/Assets/biti6.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4,
+    "discount": "$999"
+  }
+  ,{
+  "name": "Bitis Hunter X 2020",
+  "price": "500.000đ",
+  "image": "./Img/Assets/biti1.1.jpg",
+  "link": "Bitis-Hunter-X.html",
+  "rating": 5,
+  "discount": null
+},
+  {
+    "name": "Bitis Hunter X 2021",
+    "price": "999.000đ",
+    "image": "./Img/Assets/biti2.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2022",
+    "price": "1.000.000đ",
+    "image": "./Img/Assets/biti3.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2023",
+    "price": "491.000đ",
+    "image": "./Img/Assets/biti4.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2024",
+    "price": "Free",
+    "image": "./Img/Assets/biti5.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "Bitis Hunter X 2025",
+    "price": "$100",
+    "image": "./Img/Assets/biti6.1.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4,
+    "discount": "$999"
+  }
+]

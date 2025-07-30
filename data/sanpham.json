@@ -1,0 +1,50 @@
+[
+  {
+    "name": "50g Sơn 3D Camay Xanh Lục Bảo Pha Dương (9805 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9805 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 5,
+    "discount": null
+  },
+  {
+    "name": "50g Sơn 3D Camay Vàng Kim Pha Xanh Lục chuyển màu theo góc nhìn (9802 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9802 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4.5,
+    "discount": null
+  },
+  {
+    "name": "50g Sơn 3D Camay Hồng Pha Kem Sữa (9804 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9804 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "50g Sơn 3D Camay Hồng Pha Vàng chuyển màu theo góc nhìn (9801 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9801 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "50g Sơn 3D Camay Hồng Pha Dương chuyển màu theo góc nhìn (9803 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9803 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 3.5,
+    "discount": null
+  },
+  {
+    "name": "50g Sơn 3D Camay Xanh Lục Bảo Pha Hồng chuyển màu theo góc nhìn (9807 AH)",
+    "price": "100.000đ",
+    "image": "./Img/Son/9807 AH.jpg",
+    "link": "Bitis-Hunter-X.html",
+    "rating": 4,
+    "discount": "120.000đ"
+  }
+]

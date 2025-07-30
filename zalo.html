@@ -1,0 +1,102 @@
+<!-- zalo-button.html -->
+<a href="https://zalo.me/0961855771" target="_blank" class="zalo-fixed" title="Chat ngay với Cao Dũng">
+  <img src="Img/Assets/zalo.png" alt="Zalo" width="64">
+  <div class="ripple"></div>
+</a>
+
+<style>
+  .zalo-fixed {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #0084ff;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,132,255,0.8);
+    animation: blink 1.2s infinite ease-in-out;
+  }
+
+  .zalo-fixed img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    transform: scale(0);
+    animation: ripple-effect 0.6s ease-out;
+    pointer-events: none;
+    width: 60px;
+    height: 60px;
+    left: 6px;
+    top: 6px;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translate(0); }
+    15% { transform: translate(-6px, 6px); }
+    30% { transform: translate(6px, -6px); }
+    45% { transform: translate(-6px, 6px); }
+    60% { transform: translate(6px, -6px); }
+    75% { transform: translate(-6px, 6px); }
+    90% { transform: translate(6px, -6px); }
+  }
+
+  @keyframes glow {
+  0% {
+    box-shadow: 50 50 100px rgba(0,132,255,0.7);
+  }
+  50% {
+    box-shadow: 0 0 250px rgba(0,132,255,1), 0 0 1500px rgba(255,255,255,0.3);
+  }
+  100% {
+    box-shadow: 50 50 100px rgba(0,132,255,0.7);
+  }
+}
+
+  .zalo-fixed:hover,
+  .zalo-fixed.ringing {
+    animation: shake 1s ease-in-out, glow 1.5s infinite ease-in-out;
+  }
+
+  @keyframes blink {
+    0%, 100% { box-shadow: 0 0 50px rgba(0,132,255,0.9); }
+    50% { box-shadow: 0 0 100px rgba(0,132,255,0.4); }
+  }
+
+  @keyframes ripple-effect {
+    to { transform: scale(4); opacity: 0; }
+  }
+</style>
+
+<script>
+  const zaloBtn = document.querySelector(".zalo-fixed");
+
+  zaloBtn.addEventListener("mouseenter", () => {
+    zaloBtn.classList.add("ringing");
+    setTimeout(() => zaloBtn.classList.remove("ringing"), 1000);
+  });
+
+  zaloBtn.addEventListener("click", (e) => {
+    zaloBtn.classList.add("ringing");
+    setTimeout(() => zaloBtn.classList.remove("ringing"), 1000);
+
+    const ripple = zaloBtn.querySelector(".ripple");
+    const rect = zaloBtn.getBoundingClientRect();
+    ripple.style.left = `${e.clientX - rect.left - 30}px`;
+    ripple.style.top = `${e.clientY - rect.top - 30}px`;
+    ripple.classList.remove("active");
+    void ripple.offsetWidth;
+    ripple.classList.add("active");
+  });
+</script>

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Adidas",
+    "image": "./Img/Giay/adidas.jpg"
+  },
+  {
+    "name": "Nike",
+    "image": "./Img/Giay/nike.jpg"
+  },
+  {
+    "name": "Fila",
+    "image": "./Img/Giay/fila.jpg"
+  },
+  {
+    "name": "Converse",
+    "image": "./Img/Giay/converse.jpg"
+  }
+]
